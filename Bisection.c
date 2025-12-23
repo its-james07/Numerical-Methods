@@ -3,7 +3,7 @@
 #include<math.h>
 
 double f(double x){
-    return (pow(x,2)-4*x-10);
+    return x*sin(x)+cos(x);
 }
 
 int main(){
